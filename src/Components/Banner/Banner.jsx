@@ -1,12 +1,6 @@
 import { Carousel } from 'flowbite-react';
 import React from 'react';
 
-import banner1 from "../../assets/Banner/banner1.jpg"
-import banner2 from "../../assets/Banner/banner2.jpg"
-import banner3 from "../../assets/Banner/banner3.jpg"
-
-
-
 const Banner = () => {
     return (
         <div className="h-56 sm:h-64 xl:h-96 2xl:h-[75vh]">
