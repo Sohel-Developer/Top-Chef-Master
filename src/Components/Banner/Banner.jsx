@@ -1,19 +1,24 @@
 import { Carousel } from 'flowbite-react';
 import React from 'react';
 
+import banner1 from "../../assets/Banner/banner1.jpg"
+import banner2 from "../../assets/Banner/banner2.jpg"
+import banner3 from "../../assets/Banner/banner3.jpg"
+
+
 
 const Banner = () => {
     return (
-        <div className="h-56 sm:h-64 xl:h-96 2xl:h-[60vh]">
+        <div className="h-56 sm:h-64 xl:h-96 2xl:h-[75vh]">
             <Carousel>
-                <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-                    Slide 1
+                <div className="flex h-full items-center brightness-50 justify-center bg-cover bg-[url('https://i.ibb.co/CV2mN1M/banner1.jpg')]  dark:bg-gray-700 dark:text-white">
+
                 </div>
-                <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-                    Slide 2
+                <div className="flex h-full items-center brightness-50 justify-centerbg bg-cover bg-[url('https://i.ibb.co/pJTtpRX/banner2.jpg')] dark:bg-gray-700 dark:text-white">
+
                 </div>
-                <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-                    Slide 3
+                <div className="flex h-full items-center brightness-50 justify-centerbg bg-cover bg-[url('https://i.ibb.co/KFvDsHz/banner3.jpg')] dark:bg-gray-700 dark:text-white">
+
                 </div>
             </Carousel>
         </div>
